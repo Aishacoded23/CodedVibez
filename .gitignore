@@ -1,31 +1,20 @@
-# Python environment variables and cache files
+# Python
+__pycache__/
 
-# Byte-compiled files
-__pycache__/  
-*.py[cod]  
-*.pyo  
-*.pyd  
+# Environments
+.env
+venv/
 
-# C Extensions
-*.so  
+# IDEs
+.vscode/
+.idea/
 
-# Distribution / packaging
-.Python  
-*.egg-info/  
-.dist-info/  
-*.egg  
+# Media files
+*.mp4
+*.mp3
+*.wav
 
-# Virtual environments
-env/  
-venv/  
-ENV/  
-ENV/*  
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/  
-
-# Pynb
-*.ipynb  
-
-# Pytest
-.cache/  
+# Other
+bot_session
+*.tmp
+*.temp
