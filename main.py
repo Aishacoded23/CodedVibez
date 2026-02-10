@@ -1,26 +1,29 @@
 # God Mode Music Producer Bot
 
-This is a bot that assists music producers in creating and managing their music projects efficiently. 
+class GodModeMusicProducer:
+    def __init__(self):
+        self.track = ""
+        self.genre = ""
 
-## Features
-- Track management
-- Sample integration
-- Mixing gestures
-- User-friendly interface
+    def set_genre(self, genre):
+        self.genre = genre
+        print(f"Genre set to: {self.genre}")
 
-## Installation 
-To install, run:
-```bash
-pip install god-mode-music-bot
-```
+    def create_track(self, track_name):
+        self.track = track_name
+        print(f"Creating track: {self.track} in genre {self.genre}")
 
-## Usage
-```python
-from god_mode_music_bot import Bot
+    def produce(self):
+        if self.track:
+            print(f"Producing track: {self.track}...")
+            # Simulate producing process
+            print("Track production complete!")
+        else:
+            print("No track created to produce.")
 
-bot = Bot()  
-bot.start()  
-```
-
-## License
-MIT License
+# Example usage:
+if __name__ == '__main__':
+    bot = GodModeMusicProducer()
+    bot.set_genre("Hip-Hop")
+    bot.create_track("Epic Beat")
+    bot.produce()
