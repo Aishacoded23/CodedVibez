@@ -1,0 +1,31 @@
+# Python environment variables and cache files
+
+# Byte-compiled files
+__pycache__/  
+*.py[cod]  
+*.pyo  
+*.pyd  
+
+# C Extensions
+*.so  
+
+# Distribution / packaging
+.Python  
+*.egg-info/  
+.dist-info/  
+*.egg  
+
+# Virtual environments
+env/  
+venv/  
+ENV/  
+ENV/*  
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/  
+
+# Pynb
+*.ipynb  
+
+# Pytest
+.cache/  
